@@ -15,6 +15,7 @@ render(element, root);
 // 答：就是把{}里面的内容，放到了createElement的下一个参数里了，其实就是当作普通的js表达式来执行。
 
 /* your code here ! */
+// compiledElement is same to the element
 const compiledElement = React.createElement(
   "div",
   {},
